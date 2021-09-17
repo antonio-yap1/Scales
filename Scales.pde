@@ -17,7 +17,7 @@ void scale (int x, int y) {
     fill((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
   }
   else {
-    fill((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
+    fill((int)0,(int)0,(int)(Math.random()*255));
   }
 beginShape();
   vertex(0+ x, -40+y);
